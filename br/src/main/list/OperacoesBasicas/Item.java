@@ -25,12 +25,12 @@ public class Item {
     }
 
     
-    // @Override
-    // public String toString() {
-    //     return "Itens{" +
-    //         "nome='" + nome + "," +'\'' +
-    //         "preço='" + preco + "," +'\'' +
-    //         "quantidade='" + quantidade +'\'' +
-    //         '}';
-    // }
+    @Override
+    public String toString() {
+        return "Itens{" +
+            "nome='" + nome + "," +'\'' +
+            "preço='" + preco + "," +'\'' +
+            "quantidade='" + quantidade +'\'' +
+            '}';
+    }
 }
